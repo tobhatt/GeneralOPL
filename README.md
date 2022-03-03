@@ -1,1 +1,6 @@
-# GeneralOPL
+# Code for GeneralOPL from "Generalizing Off-Policy Learning under Sample Selection Bias"
+
+# Abstract:
+Learning personalized decision policies that generalize to the target population is of great relevance. Since training data is often not representative of the target population, standard policy learning methods may yield policies that do not generalize target population. To address this challenge, we propose a novel framework for learning policies that generalize to the target population. For this, we characterize the difference between the training data and the target population as a sample selection bias using a selection variable. Over an uncertainty set around this selection variable, we optimize the minimax value of a policy to achieve the best worst-case policy value on the target population. In order to solve the minimax problem, we derive an efficient algorithm based on a convex-concave procedure and prove convergence for parametrized spaces of policies such as logistic policies. We prove that, if the uncertainty set is well-specified, our policies generalize to the target population as they can not do worse than on the training data. Using simulated data and a clinical trial, we demonstrate that, compared to standard policy learning methods, our framework improves the generalizability of policies substantially. 
+
+Paper available at https://arxiv.org/abs/2112.01387
